@@ -34,10 +34,13 @@ button.logo-btn {
   border: none;
   padding: 12px;
 }
-
+a.theme-btn span {
+  padding: 3px;
+}
 nav.navbar.navbar-expand-lg.bg-dark {
   padding: 0;
 }
+
 /* ==================== */
 /* theme btn  */
 
