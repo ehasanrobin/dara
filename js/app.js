@@ -32,3 +32,10 @@ document.querySelector(".searchInput").addEventListener("blur", () => {
   document.querySelector(".input-box").classList.add("none");
   navmenu.classList.remove("none");
 });
+
+// It is so that once the container is gone, the entire preloader section is deleted
+
+setTimeout(() => {
+  document.querySelector("#preloader").style.display = "none";
+  console.log("time out");
+}, 1500);
